@@ -1,0 +1,53 @@
+.main-container-MainCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(88, 148, 169);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: seashell;
+    border: 1px solid seashell;
+    border-radius: 20px;
+    height: 70%;
+    gap: 5%;
+    width: 22%;
+    margin-bottom: 5%;
+    box-shadow: 6px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+.degree-sign {
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+    bottom: -7px;
+}
+
+.add-to-fav-btn {
+    border-radius: 10px;
+    border: 1.5px solid lightblue;
+    color: rgb(88, 148, 169);
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 1050px) {
+    .main-container-MainCard {
+        width: 25%;
+        font-size: x-large;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .main-container-MainCard {
+        width: 25%;
+        font-size: medium;
+        gap: 5%;
+        height: 100%;
+    }
+
+}

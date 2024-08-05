@@ -1,0 +1,61 @@
+.main-container-SearchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30%;
+    gap:10%;
+    margin-top:7%;
+}
+
+input {
+    padding: 10%;
+    border-radius: 10px;
+    border: 1px solid seashell;
+    color: rgb(88, 148, 169);
+    font-size: large;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: rgb(88, 148, 169);
+
+}
+
+button{
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid seashell;
+    color: rgb(88, 148, 169);
+    background-color: seashell;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.temp-picker{
+    display: flex;
+    gap:10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-favorites-btn{
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid seashell;
+    color: rgb(88, 148, 169);
+    background-color: seashell;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+@media (max-width: 500px) {
+    .main-container-SearchBar{
+        width:50%;
+    }
+    
+}

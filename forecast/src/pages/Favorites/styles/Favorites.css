@@ -1,0 +1,49 @@
+.favorites-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.favorites-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(88, 148, 169);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: seashell;
+    border: 1px solid seashell;
+    border-radius: 20px;
+    height: 60%;
+    gap: 15px;
+    width: 32%;
+    margin-bottom:5%;
+    box-shadow: 6px 7px 2px 1px lightgreen;
+    
+}
+
+.to-home-btn{
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid seashell;
+    color: rgb(88, 148, 169);
+    background-color: seashell;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top:5%;
+    margin-bottom:5%;
+    text-decoration: none;
+}
+
+.to-home-with-data-btn {
+    border-radius: 10px;
+    border: 1.5px solid lightblue;
+    color: rgb(88, 148, 169);
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 2%;
+}

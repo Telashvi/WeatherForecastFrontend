@@ -1,7 +1,8 @@
-const apiKey = '3QgUT1NaGQxhzRucFsn4tSjiilWFgeEr';
+const apiKey = import.meta.env.VITE_API_KEY;
 import axios from 'axios';
 
 export async function gatherLocationKey(location: string): Promise<number | boolean> {
+  
   try {
     const response = await axios.get(`http://dataservice.accuweather.com/locations/v1/cities/autocomplete`, {
       params: {
